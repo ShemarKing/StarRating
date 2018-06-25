@@ -11,6 +11,8 @@
 		18CE11C820E0BB3B00302C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE11C720E0BB3B00302C83 /* Assets.xcassets */; };
 		18CE11CB20E0BB3B00302C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE11C920E0BB3B00302C83 /* LaunchScreen.storyboard */; };
 		18CE11CE20E0BB3B00302C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE11CD20E0BB3B00302C83 /* main.m */; };
+		18CE11D620E0BB5800302C83 /* ScoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE11D520E0BB5800302C83 /* ScoreVC.m */; };
+		18CE11DD20E0E24100302C83 /* ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE11DC20E0E24000302C83 /* ScoreView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,10 @@
 		18CE11CA20E0BB3B00302C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CE11CC20E0BB3B00302C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE11CD20E0BB3B00302C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CE11D420E0BB5800302C83 /* ScoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreVC.h; sourceTree = "<group>"; };
+		18CE11D520E0BB5800302C83 /* ScoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreVC.m; sourceTree = "<group>"; };
+		18CE11DB20E0E24000302C83 /* ScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreView.h; sourceTree = "<group>"; };
+		18CE11DC20E0E24000302C83 /* ScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +59,26 @@
 		18CE11C320E0BB3600302C83 /* ScorePrictice */ = {
 			isa = PBXGroup;
 			children = (
+				18CE11DA20E0E24000302C83 /* ScoreView */,
 				18CE11C420E0BB3600302C83 /* AppDelegate.h */,
 				18CE11C520E0BB3600302C83 /* AppDelegate.m */,
+				18CE11D420E0BB5800302C83 /* ScoreVC.h */,
+				18CE11D520E0BB5800302C83 /* ScoreVC.m */,
 				18CE11C720E0BB3B00302C83 /* Assets.xcassets */,
 				18CE11C920E0BB3B00302C83 /* LaunchScreen.storyboard */,
 				18CE11CC20E0BB3B00302C83 /* Info.plist */,
 				18CE11CD20E0BB3B00302C83 /* main.m */,
 			);
 			path = ScorePrictice;
+			sourceTree = "<group>";
+		};
+		18CE11DA20E0E24000302C83 /* ScoreView */ = {
+			isa = PBXGroup;
+			children = (
+				18CE11DB20E0E24000302C83 /* ScoreView.h */,
+				18CE11DC20E0E24000302C83 /* ScoreView.m */,
+			);
+			path = ScoreView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE11D620E0BB5800302C83 /* ScoreVC.m in Sources */,
+				18CE11DD20E0E24100302C83 /* ScoreView.m in Sources */,
 				18CE11CE20E0BB3B00302C83 /* main.m in Sources */,
 				18CE11C620E0BB3600302C83 /* AppDelegate.m in Sources */,
 			);
